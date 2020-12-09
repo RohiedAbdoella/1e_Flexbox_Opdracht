@@ -1,0 +1,126 @@
+.goldborder {
+    border: 5px double darkblue;
+    margin: 20px;
+    padding: 30px;
+    }
+
+.websitetitle {
+        margin: 0 auto;
+        width: 400px;
+        }
+
+body {
+    color: white;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    }
+
+.navlist li {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: inline;
+        margin: 10px;
+        }
+
+h1 {
+    color: lightblue;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 40px;
+    }
+
+h2 {
+    color: lightblue;
+    font-family: Verdana, Geneva;
+    font-size: 25px;
+    }    
+
+h3 {
+    color: lightblue;
+    font-family: Verdana, Geneva;
+    font-size: 15px;
+    }    
+
+ul {
+    list-style-type: circle;
+    font-size:20px;
+    }
+
+.leeftijd {
+    color: white;
+    list-style-type: none;
+    font-size: 14px;
+    }
+
+.thanos {
+    border: 5px solid silver;
+    width: 150px; 
+    margin: 20px;
+    }
+
+p   {
+    font-size: 15px;
+    }
+
+form{
+    display: block;
+    width: 300px;
+    margin: 10px;
+    }
+
+.blogpost { 
+    display: flex;
+    flex-direction: row;}
+    
+.blogpost div{ 
+    width: 300px;
+    border: 2px solid white;      
+    }
+
+.flex1 {
+    flex-grow: 2; 
+    align-self: strech}
+
+.flex2 {
+    flex-grow: 1; 
+    }
+
+.flex3 {
+    flex-grow: 1; 
+    }
+
+.flex4 {
+    flex-grow: 1; 
+    }
+
+.flex5 {
+    flex-grow: 1; 
+    }
+    
+
+
+@media (min-width: 1024px) {
+ 
+    h1 {
+       font-size: 25px;
+        }
+
+
+    .leeftijd {
+        font-size: 10px;
+        line-height: 60px;
+        }
+
+    ul {
+        font-size: 15px;
+        line-height: 15px;
+        }
+
+    p   {
+        font-size: 12px;
+        line-height: 30px;
+        }
+   
+    }
+    
